@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  nav.navigation {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .album-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  figure {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  figure:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  }
+}
