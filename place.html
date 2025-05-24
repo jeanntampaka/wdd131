@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en_US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover Rwanda - The Land of a Thousand Hills" />
+  <meta name="author" content="Jean Ntampaka"
+  <title>Rwanda - Land of a Thousand Hills</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Rwanda</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#info">About</a></li>
+        <li><a href="#weather">Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <picture>
+        <source srcset="images/kigali-large.webp" media="(min-width: 600px)" />
+        <img src="images/kigali-small.webp" alt="Kigali cityscape in Rwanda" loading="lazy" />
+      </picture>
+    </section>
+
+    <section id="info" class="info">
+      <h2>Discover Rwanda</h2>
+      <p>
+        Known as the "Land of a Thousand Hills", Rwanda is a vibrant East African country celebrated for its breathtaking landscapes, mountain gorillas, and warm hospitality. From the bustling capital city of Kigali to the lush forests of Volcanoes National Park, Rwanda offers an unforgettable experience blending nature, culture, and innovation.
+      </p>
+    </section>
+
+    <section id="weather" class="weather">
+      <h2>Weather <span class="weather-icon large" aria-hidden="true"></span></h2>
+      <div class="weather-box">
+        <p>Temperature: <span id="temp">18</span>°C</p>
+        <p>Wind Speed: <span id="wind">12</span> km/h</p>
+        <p>Wind Chill: <span id="windchill">Calculating...</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Rwanda Page | Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+
+</html>
