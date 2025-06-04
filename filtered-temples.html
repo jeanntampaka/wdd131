@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Jean Ntampaka">
+  <title>Filtered Temple Album</title>
+  <link rel="stylesheet" href="styles/filtered-temples.css" />
+  <link rel="stylesheet" href="styles/filtered-temples-large.css" media="(min-width: 640px)" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet" />
+  <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Temple Album</h1>
+    <button id="menu" aria-label="Toggle Menu">☰</button>
+    <nav class="navigation">
+      <a href="#" data-filter="home">Home</a>
+      <a href="#" data-filter="old">Old</a>
+      <a href="#" data-filter="new">New</a>
+      <a href="#" data-filter="large">Large</a>
+      <a href="#" data-filter="small">Small</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Temples</h2>
+    <div id="temple-cards" class="cards-container"></div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Jean Ntampaka</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>

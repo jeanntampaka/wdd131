@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+  nav.navigation {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .temple-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .temple-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+}
