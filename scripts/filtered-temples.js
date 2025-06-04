@@ -14,7 +14,7 @@ const temples = [
     location: "Salt Lake City, Utah, USA",
     dedicated: "1893-04-06",
     area: 253000,
-    imageUrl: "images/temple1.jpg",
+    imageUrl: "images/temple1.JPG",
   },
   {
     name: "Nauvoo Illinois Temple",
